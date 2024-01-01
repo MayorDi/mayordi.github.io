@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Monospace;
+    src: url(./fonts/MonospaceRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Monospace bold';
+    src: url(./fonts/MonospaceBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    background: #050505;
+}
+
+.side-left {
+    max-width: 256px;
+    text-align: center;
+    border-right: 2px solid #a1a1a8;
+}
+
+.side-left hr {
+    border: 1px solid #a1a1a8;
+}
+
+.logo-header {
+    padding: 1em;
+}
+
+.logo-header h2 {
+    font-family: Monospace;
+    margin: 0.5em 0 0.5em 0;
+    color: rgb(194, 202, 216);
+}
+
+.profile-icon {
+    border: 2px solid #404044;
+    padding: 0.5em;
+    width: 128px;
+    border-radius: 50%;
+}
+
+main {
+    flex: auto;
+    font-family: Monospace;
+}
+
+header {
+    border-bottom: 1px solid #76767e;
+    text-align: center;
+    font-size: 16pt;
+    padding: 0.5em;
+}
+
+h1, .chapter {
+    color: white;
+    background: linear-gradient(180deg, 
+        rgba(0,0,0,0) calc(60%), 
+        #cd412b calc(40%)
+    );
+    padding: 0 10px 0 10px;
+    display: inline-block;
+}
+
+.content-main {
+    padding-top: 5em;
+    justify-content: center;
+    display: flex;
+    color: #a1a1a8;
+}
+
+.row-desc {
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.row-chapter {
+    margin-bottom: 3em;
+}
+
+.row-chapter hr {
+    border: 1px solid #cd412b;
+}
+
+.logo-chars {
+    font-family: Monospace;
+    color: #cd412b;
+}
+
+.row-desc p {
+    margin-left: 1em;
+    max-width: 450px;
+    font-size: 14pt;
+}
+
+.keyword {
+    color: #76767e;
+    border: 2px solid #76767e;
+    font-family: 'Monospace bold';
+    padding: .5em 1em .5em 1em;
+    margin: 0 .5em 0 .5em;
+    font-weight: bold;
+}
